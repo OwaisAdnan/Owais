@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  background-image: url(./images/pngtree-business-resume-background-material-picture-image_1000126.jpg);
+}
+
+.left {
+  float: left;
+  width: 40%;
+}
+
+.right {
+  float: right;
+  width: 40%;
+}
+
+.small {
+  font-size: 10px;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+header {
+  background-image: url(./images/pexels-johannes-plenio-1103970.jpg);
+}
