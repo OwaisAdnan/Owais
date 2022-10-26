@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+.whoIsWatching {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #141414;
+}
+
+.logo-section {
+  width: 95vw;
+  margin: auto;
+  height: 7rem;
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo-section a img {
+  width: 10rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.main-div {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.main-div h1 {
+  font-size: 6.5rem;
+  letter-spacing: 0.2rem;
+  font-size: 600;
+}
+
+.memberDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.memberDiv .btn,
+.addIcon {
+  height: 10vw;
+  min-height: 8.4rem;
+  max-height: 20rem;
+  width: 10vw;
+  min-width: 8.4px;
+  max-width: 20rem;
+  border-radius: 0.4rem;
+  border: none;
+  outline: none;
+  margin-top: 4rem;
+  margin-right: 3.5rem;
+  position: relative;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.memberDiv .btn:nth-child(1) {
+  background-image: url("https://i.ibb.co/WczKfyy/user1.png");
+}
+
+.memberDiv .btn span,
+.addIcon span {
+  width: inherit;
+  position: absolute;
+  bottom: -3.5rem;
+  left: 0;
+  color: rgb(153, 153, 153);
+  font-size: 2rem;
+}
+
+.addIcon {
+  background-image: url(https://i.ibb.co/WczKfyy/user1.png);
+}
+
+.manageProfile {
+  border: 1px solid grey;
+  color: grey;
+  text-transform: uppercase;
+  padding: 0.8rem 2.6rem;
+  letter-spacing: 0.5rem;
+  font-size: 2.5rem;
+  margin-top: 12rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+.manageProfile:hover {
+  border: 1px solid #fff;
+  color: #fff;
+}
