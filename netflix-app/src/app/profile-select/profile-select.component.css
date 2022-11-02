@@ -21,7 +21,6 @@ body {
   height: 7rem;
   background-color: rgb(20, 20, 20);
   display: flex;
-  justify-content: flex-start;
   align-items: center;
 }
 .logo-section a img {
@@ -46,13 +45,6 @@ body {
   font-size: 600;
 }
 
-.memberDiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
 .memberDiv .btn,
 .addIcon {
   height: 10vw;
@@ -68,12 +60,7 @@ body {
   margin-right: 3.5rem;
   position: relative;
   cursor: pointer;
-  background-repeat: no-repeat;
   background-size: cover;
-}
-
-.memberDiv .btn:nth-child(1) {
-  background-image: url("https://i.ibb.co/WczKfyy/user1.png");
 }
 
 .memberDiv .btn span,
